@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/title_nacho"
+                android:scaleType="matrix" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btn_Back"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#00ff0000"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/btn_Profile"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#00ff0000" />
+            </LinearLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/group_topview"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/title_bar"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/button_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Home"
+            android:textColor="#FFFFFF"
+            android:background="#BEDDB9"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/buttom_cate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Category"
+            android:textColor="@color/black"
+            android:background="#ffffff"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button_prod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Product"
+            android:textColor="@color/black"
+            android:background="#ffffff"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button_stor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Store"
+            android:textColor="@color/black"
+            android:background="#ffffff"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:background="#ffffff"
+        app:layout_constraintTop_toBottomOf="@id/group_topview"
+        tools:layout_editor_absoluteX="-16dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <LinearLayout
+                android:id="@+id/group_hash11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                app:layout_constraintTop_toBottomOf="@id/viewPager">
+
+                <Button
+                    android:id="@+id/hash11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/keyword_back"
+                    android:text="#업사이클링"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/hash21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/keyword_back"
+                    android:text="#비건"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/hash31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/keyword_back"
+                    android:text="#공정무역"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/group_hash22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/group_hash11">
+
+                <Button
+                    android:id="@+id/hash41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/keyword_back"
+                    android:text="#기부 &amp; 후원 "
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/hash51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/keyword_back"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:text="#친환경"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/hash61"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/keyword_back"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:text="#제로웨이스트"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:text=" 이번 주 주목할 #가치소비  "
+                android:textColor="#000000"
+                android:textSize="11pt"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/group_hash22"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/goto_pl"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/button_pl"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text31"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/goto_ve"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/button_ve"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/goto_pl"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text=" 당신의 #미닝아웃  "
+                android:textColor="#000000"
+                android:textSize="11pt"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/goto_ve"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text=" 여러분들의 미닝아웃 키워드를 공유해 주세요.  "
+                android:textColor="#000000"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text51"
+                tools:ignore="MissingConstraints" />
+
+            <LinearLayout
+                android:id="@+id/mykeyword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/text61">
+
+                <EditText
+                    android:id="@+id/text71"
+                    android:layout_width="930dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/search_box"
+                    android:hint="  #내 미닝아웃 키워드는 "
+                    android:imeOptions="actionGo"
+                    android:padding="13dp"
+                    android:singleLine="true"
+                    android:textColor="#3E3E3E"
+                    android:textSize="15dp"
+                    android:textStyle="normal"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/text61"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/insert_key"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/insert_box"
+                    android:text="공유 ➜"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/text71"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text81"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text=" 우리의 #미닝아웃  "
+                android:textColor="#000000"
+                android:textSize="11pt"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mykeyword"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text91"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text=" 우리가 함께 만들어 가는 키워드  "
+                android:textColor="#000000"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text81"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/testImgView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/recycler1"
+                android:visibility="visible"
+                tools:ignore="MissingConstraints" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="50dp"
+                android:clipToPadding="false"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:scrollbars="horizontal"
+                app:layout_constraintTop_toBottomOf="@id/text91"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

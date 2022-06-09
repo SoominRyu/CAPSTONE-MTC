@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutPfActivity">
+
+    <LinearLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/title_nacho"
+                android:scaleType="matrix" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btn_Back"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#00ff0000"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/btn_Profile"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#00ff0000" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/group_topview"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/title_bar"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/button_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Home"
+            android:textColor="@color/black"
+            android:background="#ffffff"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/buttom_cate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Category"
+            android:textColor="@color/black"
+            android:background="#ffffff"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button_prod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Product"
+            android:textColor="@color/black"
+            android:background="#ffffff"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button_stor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Store"
+            android:textColor="@color/black"
+            android:background="#ffffff"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="10dp"
+        android:background="#ffffff"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/ve_img"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/main_plasticfree"
+
+                tools:ignore="MissingConstraints" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:id="@+id/group_hash1"
+                app:layout_constraintTop_toBottomOf="@id/ve_img"
+                >
+                <Button
+                    android:id="@+id/hash1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/keyword_back2"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:text="#업사이클링"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/hash2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/keyword_back2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:text="#비건"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/hash3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/keyword_back2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:text="#공정무역"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:id="@+id/group_hash2"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/group_hash1"
+                >
+                <Button
+                    android:id="@+id/hash4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/keyword_back2"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:text="#기부 &amp; 후원 "
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/hash5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/keyword_back2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:text="#친환경"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/hash6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/keyword_back"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:text="#제로웨이스트"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_ab"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:text="About"
+                android:textColor="#000000"
+                android:textSize="9pt"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/group_hash2"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_ve"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="\n
+우리 생활을 편리하게 해 주는 플라스틱,\n
+편리함에 속아 진정 아름다운 것을 놓치고 있지는 않나요?\n
+\n
+플라스틱이 없는 생활은 상상하기 힘듭니다.\n
+밥을 먹고, 카페에 가고, 마트에서 장을 보는 일상 생활에서도\n
+플라스틱은 끊임없이 필요하고 또 소비되고 있습니다.\n
+\n
+그러나 플라스틱의 과한 사용은\n
+지구 환경뿐만 아니라 인간의 건강에 악영향을 끼칩니다.\n
+\n
+플라스틱과 플라스틱 첨가제는 내분비 교란 작용,\n
+생식 독성, 성조숙의 원인이 되며\n
+플라스틱은 미세 플라스틱으로 분해되어 우리 몸에 축적됩니다.\n
+\n
+빨대, 일회용 용기 및 수저와 같은 직접적인 플라스틱 제품뿐만 아니라\n
+화장품, 화학 섬유, 식기 세척용 스펀지 등\n
+생활 속 다양한 곳에서 환경을 해치는 플라스틱이 사용됩니다.\n
+우리는 이러한 현 상황을 알아야 하고, 행동해야 합니다.\n
+\n
+진정한 플라스틱 프리는,\n
+텀블러와 에코백과 같은 플라스틱 대체품을 수집하는 것이 아니라\n
+정말로 환경에 도움이 되는 행동을 찾아보고, 실천으로 옮기는 것입니다.\n
+\n
+플라스틱 프리\n
+관련 상품을 아래에서 만나보세요.\n
+\n
+"
+                android:textColor="#000000"
+                android:textSize="5pt"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text_ab"
+                tools:ignore="MissingConstraints" />
+
+            <View
+                android:id="@+id/line1"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#D2D2D2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text_ve"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_pr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:text="Product &amp; Store"
+                android:textColor="#000000"
+                android:textSize="9pt"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/line1"
+                tools:ignore="MissingConstraints" />
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:id="@+id/group_button"
+                app:layout_constraintTop_toBottomOf="@id/text_pr"
+                android:orientation="horizontal">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView_about_pf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <Button
+                    android:id="@+id/button_pro"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_below="@id/recyclerView_about_pf"
+                    android:background="@drawable/keyword_back3"
+                    android:gravity="center"
+                    android:text="  제로웨이스트 제품 더보기 > "
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/button_site"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/keyword_back3"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:text="  제로웨이스트 사이트 더보기 >  "
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_below="@id/recyclerView_about_pf"
+                    android:layout_toRightOf="@id/button_pro"
+                    tools:ignore="MissingConstraints" />
+
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line2"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#D2D2D2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/group_button"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_co"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:text="Contents"
+                android:textColor="#000000"
+                android:textSize="9pt"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/line2"
+                tools:ignore="MissingConstraints" />
+        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="70dp"
+                            android:id="@+id/group_content"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            app:layout_constraintTop_toBottomOf="@id/text_co"
+                            tools:ignore="MissingConstraints">
+
+                            <Button
+                                android:id="@+id/content_up"
+                                android:layout_width="140dp"
+                                android:layout_height="110dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginRight="15dp"
+                                android:background="@drawable/main_upcycling"
+                                android:layout_weight="1"
+                                />
+
+                            <Button
+                                android:id="@+id/content_do"
+                                android:layout_width="140dp"
+                                android:layout_height="110dp"
+                                android:layout_marginTop="20dp"
+                                android:background="@drawable/main_donation"
+                                android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

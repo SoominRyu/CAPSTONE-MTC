@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryActivity">
+
+    <LinearLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/title_nacho"
+                android:scaleType="matrix" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btn_Back"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#00ff0000"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/btn_Profile"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#00ff0000" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/group_topview"
+        app:layout_constraintTop_toBottomOf="@id/title_bar"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/button_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Home"
+
+            android:textColor="@color/black"
+            android:background="#ffffff"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/buttom_cate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Category"
+            android:textColor="#FFFFFF"
+            android:background="#BEDDB9"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button_prod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Product"
+            android:textColor="@color/black"
+            android:background="#ffffff"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button_stor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Store"
+            android:textColor="@color/black"
+            android:background="#ffffff"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="20dp"
+        android:background="#ffffff"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  우리가 함께 하는"
+                android:textColor="#000000"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <LinearLayout
+                android:id="@+id/CateList_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text1"
+                android:gravity="center"
+                tools:ignore="MissingConstraints">
+
+                <ImageButton
+                    android:id="@+id/cate_up"
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+                    android:background="@drawable/back_upcycling"
+                    android:src="@drawable/ct_u"
+                    android:scaleType="centerCrop"
+                    />
+
+                <ImageButton
+                    android:id="@+id/cate_ve"
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/back_vegan"
+                    android:src="@drawable/ct_v"
+                    android:scaleType="centerCrop"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/CateList_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/CateList_1"
+                android:gravity="center"
+                tools:ignore="MissingConstraints">
+
+                <ImageButton
+                    android:id="@+id/cate_ft"
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+                    android:background="@drawable/back_fair"
+                    android:src="@drawable/ct_f"
+                    android:scaleType="centerCrop"
+                    />
+
+                <ImageButton
+                    android:id="@+id/cate_do"
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/back_donation"
+                    android:src="@drawable/ct_d"
+                    android:scaleType="centerCrop"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/CateList_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/CateList_2"
+                android:gravity="center"
+                tools:ignore="MissingConstraints">
+
+                <ImageButton
+                    android:id="@+id/cate_ani"
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+                    android:background="@drawable/back_animal"
+                    android:src="@drawable/ct_a"
+                    android:scaleType="centerCrop"
+                    />
+
+                <ImageButton
+                    android:id="@+id/cate_pf"
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/back_plastic"
+                    android:src="@drawable/ct_p"
+                    android:scaleType="centerCrop"
+                    />
+
+            </LinearLayout>
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

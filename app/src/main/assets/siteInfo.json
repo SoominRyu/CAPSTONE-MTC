@@ -1,0 +1,1214 @@
+{
+  "Vegan" : [
+    {
+      "name": "베지푸드",
+      "url": "http://www.vegefood.co.kr/",
+      "logoRef": "비건/베지푸드_로고",
+      "tags": ["비건"],
+      "products": [
+        {
+          "storageRef": "비건/베지푸드_베지비엔나",
+          "productUrl": "http://www.vegefood.co.kr/shop/shopdetail.html?branduid=818&search=%25BA%25F1%25BF%25A3%25B3%25AA&sort=order&xcode=039&mcode=001&scode=&GfDT=bm50W1w%3D",
+          "name": "베지비엔나",
+          "introduction": "한 입 쏙 고소하고 담백한 비건 소세지"
+        },
+        {
+          "storageRef": "비건/베지푸드_비건후라이",
+          "productUrl": "http://www.vegefood.co.kr/shop/shopdetail.html?branduid=93428&search=%25C8%25C4%25B6%25F3%25C0%25CC&sort=order&xcode=039&mcode=001&scode=&GfDT=bm97W1w%3D",
+          "name": "비건후라이",
+          "introduction": "100% 식물성 탱글한 흰자부터 고소한 노른자까지"
+        }
+      ]
+    },
+    {
+      "name": "러빙헛",
+      "url": "http://m.lovinghut.co.kr/",
+      "logoRef": "비건/러빙헛_로고",
+      "tags": ["비건"],
+      "products": [
+        {
+          "storageRef": "비건/러빙헛_비건패티",
+          "productUrl": "http://m.lovinghut.co.kr/product/detail.html?product_no=74&cate_no=43&display_group=1",
+          "name": "비건패티",
+          "introduction": "아이들의 입맛부터 건강까지 일석이조"
+        },
+        {
+          "storageRef": "비건/러빙헛_매운떡볶이",
+          "productUrl": "http://m.lovinghut.co.kr/product/detail.html?product_no=538&cate_no=55&display_group=1",
+          "name": "매운떡볶이",
+          "introduction": "비건으로 만나보는 국민 간식"
+        }
+      ]
+    },
+    {
+      "name": "채식나라",
+      "url": "http://www.chaesiknara.co.kr/",
+      "logoRef": "비건/채식나라_로고",
+      "tags": ["비건"],
+      "products": [
+        {
+          "storageRef": "비건/채식나라_비건김치",
+          "productUrl": "http://www.chaesiknara.co.kr/shop/goods/goods_view.php?goodsno=743&category=050002",
+          "name": "비건김치",
+          "introduction": "속이 노랗고 아삭아삭, 건강한 비건 김치"
+        },
+        {
+          "storageRef": "비건/채식나라_비건쌀까스",
+          "productUrl": "http://www.chaesiknara.co.kr/shop/goods/goods_view.php?goodsno=1880&category=047005004",
+          "name": "비건쌀까스",
+          "introduction": "안심하고 먹을 수 있는 건강한 쌀까스"
+        }
+      ]
+    },
+    {
+      "name": "베지맘",
+      "url": "http://vegemom.kr/",
+      "logoRef": "비건/베지맘_로고",
+      "tags": ["비건"],
+      "products": [
+        {
+          "storageRef": "비건/베지맘_코코넛분말",
+          "productUrl": "http://vegemom.kr/goods/goods_view.php?goodsNo=1000003377",
+          "name": "코코넛분말",
+          "introduction": "기름, 버터 대신 식물성 기름 코코넛분말"
+        },
+        {
+          "storageRef": "비건/베지맘_두유요거트아이스크림",
+          "productUrl": "http://vegemom.kr/goods/goods_view.php?goodsNo=1000003394",
+          "name": "두유아이스크림",
+          "introduction": "유산균 폭발! 두유 요거트 아이스크림"
+        }
+      ]
+    },
+    {
+      "name": "비건스페이스",
+      "url": "https://veganspace.co.kr/",
+      "logoRef": "비건/비건스페이스_로고",
+      "tags": ["비건"],
+      "products": [
+        {
+          "storageRef": "비건/비건스페이스_비건오뎅탕",
+          "productUrl": "https://veganspace.co.kr/convenient/?idx=522",
+          "name": "비건오뎅탕",
+          "introduction": "좋은 재료, 아낌없이 듬뿍 비건 오뎅탕"
+        },
+        {
+          "storageRef": "비건/비건스페이스_비건들깨미역국",
+          "productUrl": "https://veganspace.co.kr/convenient/?idx=418",
+          "name": "비건들깨미역국",
+          "introduction": "간편하게 비건으로 즐기는 생일 미역국"
+        }
+      ]
+    },
+    {
+      "name": "진선푸드",
+      "url": "http://jinsunfood.com/index.html",
+      "logoRef": "비건/진선푸드_로고",
+      "tags": ["비건"],
+      "products": [
+        {
+          "storageRef": "비건/진선푸드_우리밀피망잡채만두",
+          "productUrl": "http://jinsunfood.com/product/detail.html?product_no=104&cate_no=1&display_group=2",
+          "name": "우리밀피망잡채만두",
+          "introduction": "몸에 좋은 피망과 다양한 야채 당면까지 만두로 쏙"
+        },
+        {
+          "storageRef": "비건/진선푸드_우리밀우리쌀찐빵",
+          "productUrl": "http://jinsunfood.com/product/detail.html?product_no=43&cate_no=7&display_group=1",
+          "name": "우리밀우리쌀찐빵",
+          "introduction": "쫄깃 달콤 겨울철 별미 쌀찐빵"
+        }
+      ]
+    },
+    {
+      "name": "채식한끼몰",
+      "url": "https://www.hanggi.kr/",
+      "logoRef": "비건/채식한끼몰_로고",
+      "tags": ["비건"],
+      "products": [
+        {
+          "storageRef": "비건/채식한끼몰_배부른곤약밥",
+          "productUrl": "https://www.hanggi.kr/goods/goods_view.php?goodsNo=1000000462&mtn=26%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F%5E%7C%5En#lyZoom",
+          "name": "배부른곤약밥",
+          "introduction": "낮은 칼로리, 포만감 가득 배부른 곤약밥"
+        },
+        {
+          "storageRef": "비건/채식한끼몰_모둠송편",
+          "productUrl": "https://www.hanggi.kr/goods/goods_view.php?goodsNo=1000000458&mtn=26%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F%5E%7C%5En",
+          "name": "모둠송편",
+          "introduction": "취향 따라 골라 먹는 참깨, 녹두, 쑥 송편"
+        }
+      ]
+    },
+    {
+      "name": "비건푸드",
+      "url": "https://vegan.modoo.at/",
+      "logoRef": "비건/비건푸드_로고",
+      "tags": ["비건"],
+      "products": [
+        {
+          "storageRef": "비건/비건푸드_건조콩단백",
+          "productUrl": "https://smartstore.naver.com/veganfood/products/273827732?site_preference=device&NaPm=ct%3Dktk9s75x%7Cci%3Dshopn%7Ctr%3Dmo%7Chk%3D658b0c05c16a3438d73459f8705641952f2f5797%7Ctrx%3Dundefined",
+          "name": "건조콩단백",
+          "introduction": "저렴하게 건강한 콩불고기 요리 뚝딱"
+        },
+        {
+          "storageRef": "비건/비건푸드_채식감자짜장면",
+          "productUrl": "https://smartstore.naver.com/veganfood/products/239697606?site_preference=device&NaPm=ct%3Dktk9tl7m%7Cci%3Dshopn%7Ctr%3Dmo%7Chk%3Dc57f61963ef6667324f74e81eafa93a5a2eefc4f%7Ctrx%3Dundefined",
+          "name": "채식감자짜장면",
+          "introduction": "No 동물성 No 계란 No 화학조미료 But 맛있는 채식 짜장면"
+        }
+      ]
+    },
+    {
+      "name": "보나쥬르",
+      "url": "https://m.bonajour.com/index.html#enp_mbris",
+      "logoRef": "비건/보나쥬르_로고",
+      "tags": ["비건"],
+      "products": [
+        {
+          "storageRef": "비건/보나쥬르_그린티워터밤",
+          "productUrl": "https://m.bonajour.com/product/%EA%B7%B8%EB%A6%B0%ED%8B%B0-%EC%9B%8C%ED%84%B0%EB%B0%A4-100ml/116/category/231/display/1/#enp_mbris",
+          "name": "그린티워터밤",
+          "introduction": "자연에서 온 성분만을 담은 착한 수분크림"
+        },
+        {
+          "storageRef": "비건/보나쥬르_초록비타민세럼",
+          "productUrl": "https://m.bonajour.com/product/%EC%B4%88%EB%A1%9D-%EB%B9%84%ED%83%80%EB%AF%BC-%EC%84%B8%EB%9F%BC-35ml/414/category/194/display/1/#enp_mbris",
+          "name": "초록비타민세럼",
+          "introduction": "자극없이 촉촉 산뜻 초록 비타민 세럼"
+        }
+      ]
+    },
+    {
+      "name": "멜릭서",
+      "url": "https://m.kr.melixirskincare.com/",
+      "logoRef": "비건/멜릭서_로고",
+      "tags": ["비건"],
+      "products": [
+        {
+          "storageRef": "비건/멜릭서_비건에어핏선스크린",
+          "productUrl": "https://m.kr.melixirskincare.com/product/detail.html?product_no=43&cate_no=52&display_group=1",
+          "name": "비건에어핏선스크린",
+          "introduction": "공기처럼 가볍게 흡수되는 비건 에어핏 선스크린"
+        },
+        {
+          "storageRef": "비건/멜릭서_비건립버터",
+          "productUrl": "https://m.kr.melixirskincare.com/product/detail.html?product_no=32&cate_no=52&display_group=1",
+          "name": "비건립버터",
+          "introduction": "자연의 영양을 담은 비건 립 버터로 입술을 촉촉하게"
+        }
+      ]
+    }
+  ],
+  "FairTrading": [
+    {
+      "name": "FairTradeKorea",
+      "url": "https://fairtradekorea.co.kr/",
+      "logoRef": "공정무역/FairTradeKorea_로고",
+      "tags": ["공정무역"],
+      "products": [
+        {
+          "storageRef": "공정무역/FairTradeKorea_타월",
+          "productUrl": "https://fairtradekorea.co.kr/product/detail.html?product_no=2885&cate_no=28&display_group=1",
+          "name": "타월",
+          "introduction": "히말라야에서 온 작은 선물"
+        },
+        {
+          "storageRef": "공정무역/FairTradeKorea_수분크림",
+          "productUrl": "https://fairtradekorea.co.kr/product/detail.html?product_no=1356&cate_no=28&display_group=1",
+          "name": "수분크림",
+          "introduction": "공정무역 아르간으로 피부도 마음도 촉촉하게"
+        }
+      ]
+    },
+    {
+      "name": "울림",
+      "url": "https://ullimft.com/",
+      "logoRef": "공정무역/울림_로고",
+      "tags": ["공정무역"],
+      "products": [
+        {
+          "storageRef": "공정무역/울림_장난감",
+          "productUrl": "https://ullimft.com/?idx=346",
+          "name": "장난감",
+          "introduction": "스리랑카 전통 방식으로 만든 안심 인형"
+        },
+        {
+          "storageRef": "공정무역/울림_부채",
+          "productUrl": "https://ullimft.com/?idx=258",
+          "name": "부채",
+          "introduction": "가나 코끼리풀 부채로 이번 여름 시원하게"
+        }
+      ]
+    },
+    {
+      "name": "어스맨",
+      "url": "https://earthman.asia/",
+      "logoRef": "공정무역/어스맨_로고",
+      "tags": ["공정무역"],
+      "products": [
+        {
+          "storageRef": "공정무역/어스맨_건체리",
+          "productUrl": "https://earthman.asia/product/cherry_4ea",
+          "name": "건체리",
+          "introduction": "히말라야의 신선함 그대로"
+        },
+        {
+          "storageRef": "공정무역/어스맨_건바나나",
+          "productUrl": "https://earthman.asia/product/banana_4ea",
+          "name": "건바나나",
+          "introduction": "인도양의 신선함 그대로"
+        }
+      ]
+    },
+    {
+      "name": "에코몽",
+      "url": "http://ecomont.kr/index.html",
+      "logoRef": "공정무역/에코몽_로고",
+      "tags": ["공정무역"],
+      "products": [
+        {
+          "storageRef": "공정무역/에코몽_커피",
+          "productUrl": "http://ecomont.kr/product/%EC%97%90%EC%BD%94%EB%AA%BD-%EC%9C%A0%EA%B8%B0%EB%86%8D-%EC%BB%A4%ED%94%BC-100g-6%EB%B3%91/34/category/47/display/1/",
+          "name": "커피",
+          "introduction": "농약ZERO, 화학비료ZERO"
+        },
+        {
+          "storageRef": "공정무역/에코몽_디카페인커피",
+          "productUrl": "http://ecomont.kr/product/%EC%97%90%EC%BD%94%EB%AA%BD-%EC%9C%A0%EA%B8%B0%EB%86%8D-%EB%94%94%EC%B9%B4%ED%8E%98%EC%9D%B8-%EC%BB%A4%ED%94%BC-100g-6%EB%B3%91/33/category/47/display/1/",
+          "name": "디카페인커피",
+          "introduction": "독일의 깊은 커피 맛 그대로"
+        }
+      ]
+    },
+    {
+      "name": "아름다운커피",
+      "url": "https://www.beautifulcoffee.com/index.html?ref=smartphone",
+      "logoRef": "공정무역/아름다운커피_로고",
+      "tags": ["공정무역"],
+      "products": [
+        {
+          "storageRef": "공정무역/아름다운커피_킬리만자로원두",
+          "productUrl": "https://www.beautifulcoffee.com/shop/shopdetail.html?branduid=39687&xcode=041&mcode=002&scode=&type=Y&sort=manual&cur_code=041&GfDT=bGt3Uw%3D%3D",
+          "name": "킬리만자로원두",
+          "introduction": "르완다에서 온 당신만을 위한 커피"
+        },
+        {
+          "storageRef": "공정무역/아름다운커피_수마트라원두",
+          "productUrl": "https://www.beautifulcoffee.com/shop/shopdetail.html?branduid=76348&xcode=041&mcode=002&scode=&type=Y&sort=manual&cur_code=041&GfDT=bmt5W18%3D",
+          "name": "수마트라원두",
+          "introduction": "인도네시아에서 온 당신만을 위한 커피"
+        }
+      ]
+    },
+    {
+      "name": "AFN",
+      "url": "http://asiafairtrade.net/",
+      "logoRef": "공정무역/AFN_로고",
+      "tags": ["공정무역"],
+      "products": [
+        {
+          "storageRef": "공정무역/AFN_캐슈넛",
+          "productUrl": "http://asiafairtrade.net/product/detail.html?product_no=267&cate_no=81&display_group=1",
+          "name": "캐슈넛",
+          "introduction": "베트남 최상품 캐슈넛을 우리 집에서"
+        },
+        {
+          "storageRef": "공정무역/AFN_캐슈두유",
+          "productUrl": "http://asiafairtrade.net/product/detail.html?product_no=265&cate_no=81&display_group=1",
+          "name": "캐슈두유",
+          "introduction": "베트남 캐슈넛을 두유로 맛보세요"
+        }
+      ]
+    },
+    {
+      "name": "fynbo",
+      "url": "https://www.fynbofoods.com/",
+      "logoRef": "공정무역/fynbo_로고",
+      "tags": ["공정무역"],
+      "products": [
+        {
+          "storageRef": "공정무역/fynbo_블랙커런트잼",
+          "productUrl": "https://www.buyfairtrade.co.kr/shop/detail.php?pno=7F39F8317FBDB1988EF4C628EBA02591&rURL=https%3A%2F%2Fwww.buyfairtrade.co.kr%2Fshop%2Fbig_section.php%3Fpage%3D2%26cno1%3D1003&ctype=1&cno1=1003",
+          "name": "블랙커런트잼",
+          "introduction": "덴마크 방식 그대로 아침을 맞이해요"
+        },
+        {
+          "storageRef": "공정무역/fynbo_라즈베리잼",
+          "productUrl": "https://www.buyfairtrade.co.kr/shop/detail.php?pno=072B030BA126B2F4B2374F342BE9ED44&rURL=https%3A%2F%2Fwww.buyfairtrade.co.kr%2Fshop%2Fbig_section.php%3Fpage%3D2%26cno1%3D1003&ctype=1&cno1=1003",
+          "name": "라즈베리잼",
+          "introduction": "덴마크의 자연이 주는 선물"
+        }
+      ]
+    },
+    {
+      "name": "옥스팜",
+      "url": "https://www.oxfam.or.kr/",
+      "logoRef": "공정무역/옥스팜_로고",
+      "tags": ["공정무역"],
+      "products": [
+        {
+          "storageRef": "공정무역/옥스팜_사워젤리",
+          "productUrl": "https://www.buyfairtrade.co.kr/shop/detail.php?pno=854D9FCA60B4BD07F9BB215D59EF5561&rURL=https%3A%2F%2Fwww.buyfairtrade.co.kr%2Fshop%2Fbig_section.php%3Fpage%3D1%26cno1%3D1003&ctype=1&cno1=1003",
+          "name": "사워젤리",
+          "introduction": "가난이 없는 공정한 세상, 옥스팜으로 만들어요"
+        },
+        {
+          "storageRef": "공정무역/옥스팜_스위트젤리",
+          "productUrl": "https://www.buyfairtrade.co.kr/shop/detail.php?pno=218A0AEFD1D1A4BE65601CC6DDC1520E&rURL=https%3A%2F%2Fwww.buyfairtrade.co.kr%2Fshop%2Fbig_section.php%3Fpage%3D1%26cno1%3D1003&ctype=1&cno1=1003",
+          "name": "스위트젤리",
+          "introduction": "달콤한 공정무역의 세계"
+        }
+      ]
+    },
+    {
+      "name": "트립티",
+      "url": "https://tripti.co.kr/",
+      "logoRef": "공정무역/트립티_로고",
+      "tags": ["공정무역"],
+      "products": [
+        {
+          "storageRef": "공정무역/트립티_기다린설탕",
+          "productUrl": "https://tripti.co.kr/product/detail.html?product_no=355&cate_no=79&display_group=1",
+          "name": "기다린설탕",
+          "introduction": "비정제 설탕으로 가치있는 설탕을 즐겨요"
+        },
+        {
+          "storageRef": "공정무역/트립티_밀크초콜릿",
+          "productUrl": "https://tripti.co.kr/product/detail.html?product_no=304&cate_no=79&display_group=1",
+          "name": "밀크초콜릿",
+          "introduction": "도미니카공화국산 자신있는 초콜릿"
+        }
+      ]
+    },
+    {
+      "name": "공기",
+      "url": "http://gong-gi.com/",
+      "logoRef": "공정무역/공기_로고",
+      "tags": ["공정무역"],
+      "products": [
+        {
+          "storageRef": "공정무역/공기_티코스터",
+          "productUrl": "http://gong-gi.com/product/%EC%97%84%EB%A7%88%EA%B0%80-%EA%B0%84%EB%8B%A4-%EC%A3%BC%ED%8A%B8-%EC%BD%94%EC%8A%A4%ED%84%B0-%EC%8B%9C%EC%A6%8C2/103/category/57/display/1/",
+          "name": "티코스터",
+          "introduction": "방글라데시 수공예품과 함께 여유있는 차 한잔"
+        },
+        {
+          "storageRef": "공정무역/공기_바스켓",
+          "productUrl": "http://gong-gi.com/product/%EC%97%84%EB%A7%88%EA%B0%80-%EA%B0%84%EB%8B%A4-%EC%98%A4%EB%B0%9C%EB%B0%94%EC%8A%A4%EC%BC%93/126/category/57/display/1/",
+          "name": "바스켓",
+          "introduction": "방글라데시 수공예품으로 멋진 일상 가꾸기"
+        }
+      ]
+    }
+  ],
+  "Donation": [
+    {
+      "name": "윙블링",
+      "url": "https://wingbling.co.kr/",
+      "logoRef": "기부/윙블링_로고",
+      "tags": ["기부"],
+      "products": [
+        {
+          "storageRef": "기부/윙블링_목걸이",
+          "productUrl": "https://wingbling.co.kr/product/detail.html?product_no=1335&cate_no=323&display_group=1",
+          "name": "목걸이",
+          "introduction": "빙하의 눈물을 멈춰주세요"
+        },
+        {
+          "storageRef": "기부/윙블링_귀걸이",
+          "productUrl": "https://wingbling.co.kr/product/detail.html?product_no=2509&cate_no=323&display_group=1",
+          "name": "귀걸이",
+          "introduction": "코알라 가족을 도와주세요"
+        }
+      ]
+    },
+    {
+      "name": "메리디아니",
+      "url": "http://meridiani.co.kr/index.html",
+      "logoRef": "기부/메리디아니_로고",
+      "tags": ["기부"],
+      "products": [
+        {
+          "storageRef": "기부/메리디아니_반지",
+          "productUrl": "http://meridiani.co.kr/product/made-by-meridiani-%EC%9C%A0%EA%B8%B0%EA%B2%AC-%EC%9C%A0%EA%B8%B0%EB%AC%98-%ED%9B%84%EC%9B%90%EB%B0%98%EC%A7%80-%EB%AA%A8%EC%95%84%EB%B0%98%EC%A7%8024k-gold-filled/18/category/1/display/2/",
+          "name": "반지",
+          "introduction": "나랑 약속, 사지 말고 입양하세요"
+        },
+        {
+          "storageRef": "기부/메리디아니_팔찌",
+          "productUrl": "http://meridiani.co.kr/product/made-by-meridiani-%EB%89%B4-%ED%9D%B0%EB%91%A5%EC%9D%B4%ED%8C%94%EC%B0%8Csilver-925/88/category/42/display/1/",
+          "name": "팔찌",
+          "introduction": "흰둥이를 도와주세요, 유기견 후원 팔찌"
+        }
+      ]
+    },
+    {
+      "name": "비프렌드마켓",
+      "url": "http://befriendmarket.com/index.html",
+      "logoRef": "기부/비프렌드마켓_로고",
+      "tags": ["기부"],
+      "products": [
+        {
+          "storageRef": "기부/비프렌드마켓_메모패드",
+          "productUrl": "http://befriendmarket.com/shop/shopdetail.html?branduid=3567060&xcode=012&mcode=001&scode=&type=X&sort=manual&cur_code=012001&GfDT=bmp6W18%3D",
+          "name": "메모패드",
+          "introduction": "우리의 미래를 그려 주세요"
+        },
+        {
+          "storageRef": "기부/비프렌드마켓_가방",
+          "productUrl": "http://befriendmarket.com/shop/shopdetail.html?branduid=254&xcode=023&mcode=001&scode=&type=Y&sort=manual&cur_code=023001&GfDT=bm5%2FW11N",
+          "name": "가방",
+          "introduction": "다회용 가방으로 환경단체 지원해요"
+        }
+      ]
+    },
+    {
+      "name": "비코",
+      "url": "http://bcoe.co.kr/",
+      "logoRef": "기부/비코_로고",
+      "tags": ["기부"],
+      "products": [
+        {
+          "storageRef": "기부/비코_폰케이스&그립톡세트",
+          "productUrl": "http://skin-skin5.bcoe101.cafe24.com/product/%EC%9C%84%EC%96%BC%EB%82%AB%EC%96%B4%ED%86%A0%EC%9D%B4-%ED%8F%B0%EC%BC%80%EC%9D%B4%EC%8A%A4-%EA%B7%B8%EB%A6%BD%ED%86%A1-%EC%84%B8%ED%8A%B8/116/category/1/display/2/",
+          "name": "폰케이스&그립톡세트",
+          "introduction": "We are not a toy."
+        },
+        {
+          "storageRef": "기부/비코_모자",
+          "productUrl": "http://bcoe.co.kr/product/bcoeyoung-%EB%B3%BC%EC%BA%A1-%ED%99%94%EC%9D%B4%ED%8A%B8/33/category/1/display/2/",
+          "name": "모자",
+          "introduction": "당신에게 온기를 선물할게요"
+        }
+      ]
+    },
+    {
+      "name": "아틀리에리케",
+      "url": "https://www.atelierlykke.kr/",
+      "logoRef": "기부/아틀리에리케_로고",
+      "tags": ["기부"],
+      "products": [
+        {
+          "storageRef": "기부/아틀리에리케_손수건",
+          "productUrl": "https://www.atelierlykke.kr/product/untitled-64",
+          "name": "손수건",
+          "introduction": "언제 어디서나, 유기동물 후원"
+        },
+        {
+          "storageRef": "기부/아틀리에리케_캔버스백",
+          "productUrl": "https://www.atelierlykke.kr/product/untitled-89-100",
+          "name": "캔버스백",
+          "introduction": "일상에서도 예쁘게, 유기동물 후원"
+        }
+      ]
+    },
+    {
+      "name": "4OCEAN",
+      "url": "https://4ocean.com/",
+      "logoRef": "기부/4OCEAN_로고",
+      "tags": ["기부"],
+      "products": [
+        {
+          "storageRef": "기부/4OCEAN_집게",
+          "productUrl": "https://4ocean.com/products/cleanup-tong",
+          "name": "집게",
+          "introduction": "내 손으로 만드는 우리의 내일"
+        },
+        {
+          "storageRef": "기부/4OCEAN_쥬얼리세트",
+          "productUrl": "https://4ocean.com/products/sterling-silver-necklace-earring-set",
+          "name": "쥬얼리세트",
+          "introduction": "바다 쓰레기의 놀라운 변신"
+        }
+      ]
+    },
+    {
+      "name": "모레상점",
+      "url": "https://morestore.co.kr/index.html",
+      "logoRef": "기부/모레상점_로고",
+      "tags": ["기부"],
+      "products": [
+        {
+          "storageRef": "기부/모레상점_샴푸바",
+          "productUrl": "https://morestore.co.kr/product/detail.html?product_no=282&cate_no=1&display_group=26",
+          "name": "샴푸바",
+          "introduction": "당신이 머리를 감는 동안 우리는 나무 한 그루를 심습니다."
+        },
+        {
+          "storageRef": "기부/모레상점_컨디셔너바",
+          "productUrl": "https://morestore.co.kr/product/detail.html?product_no=283&cate_no=1&display_group=26",
+          "name": "컨디셔너바",
+          "introduction": "한 그루의 나무를 심는 작은 실천"
+        }
+      ]
+    },
+    {
+      "name": "팅클유",
+      "url": "https://tingklu.co.kr/",
+      "logoRef": "기부/팅클유_로고",
+      "tags": ["기부"],
+      "products": [
+        {
+          "storageRef": "기부/팅클유_고래팔찌",
+          "productUrl": "https://tingklu.co.kr/product/%EC%86%8C%EC%9B%90-%ED%96%89%EC%9A%B4%EC%8B%A4-%EC%BB%A4%ED%94%8C%ED%8C%94%EC%B0%8C-%EA%B3%A0%EB%9E%98-%EA%BC%AC%EB%A6%AC-%ED%8C%AC%EB%8D%98%ED%8A%B8-%ED%91%B8%EB%A5%B8%EB%B0%94%EB%8B%A4-%EA%B8%B0%EB%B6%80%ED%8C%94%EC%B0%8C/1336/category/349/display/1/#none",
+          "name": "고래팔찌",
+          "introduction": "예쁜 팔찌 예쁜 마음"
+        },
+        {
+          "storageRef": "기부/팅클유_기부팔찌",
+          "productUrl": "https://tingklu.co.kr/product/%ED%95%9C%EA%B3%A0%EB%A6%AC-%EC%8D%A8%ED%81%B4%EC%BD%94%EC%9D%B8%ED%8C%94%EC%B0%8C-%EB%A9%B8%EC%A2%85%EC%9C%84%EA%B8%B0%EB%8F%99%EB%AC%BC%EB%B3%B4%ED%98%B8-%EA%B8%B0%EB%B6%80%ED%8C%94%EC%B0%8C/1179/category/349/display/1/",
+          "name": "기부팔찌",
+          "introduction": "예쁜 팔찌와 함께 멸종위기동물 보호해요"
+        }
+      ]
+    },
+    {
+      "name": "데일리유니크",
+      "url": "https://smartstore.naver.com/daily-unique",
+      "logoRef": "기부/데일리유니크_로고",
+      "tags": ["기부"],
+      "products": [
+        {
+          "storageRef": "기부/데일리유니크_목걸이",
+          "productUrl": "https://smartstore.naver.com/daily-unique/products/5378021587",
+          "name": "목걸이",
+          "introduction": "나의 선행으로 유기동물을 지켜요"
+        },
+        {
+          "storageRef": "기부/데일리유니크_반지",
+          "productUrl": "https://smartstore.naver.com/daily-unique/products/5364035428",
+          "name": "반지",
+          "introduction": "유기동물에게 오늘을 선물해 주세요"
+        }
+      ]
+    },
+    {
+      "name": "녹챠방",
+      "url": "https://smartstore.naver.com/nokchabang",
+      "logoRef": "기부/녹챠방_로고",
+      "tags": ["기부"],
+      "products": [
+        {
+          "storageRef": "기부/녹챠방_키링",
+          "productUrl": "https://smartstore.naver.com/nokchabang/products/5763621495?site_preference=device&NaPm=ct%3Dktpyfqwf%7Cci%3Dshopn%7Ctr%3Dmo%7Chk%3D7325a9fa75e0119c4e65423e01cf2e9298c70dab%7Ctrx%3Dundefined",
+          "name": "키링",
+          "introduction": "우리 아이들에게 꽃길을 선물해주세요"
+        },
+        {
+          "storageRef": "기부/녹챠방_목걸이",
+          "productUrl": "https://smartstore.naver.com/nokchabang/products/5704025402",
+          "name": "목걸이",
+          "introduction": "‘웃는 돌고래’ 상괭이의 미소를 지켜주세요"
+        }
+      ]
+    }
+  ],
+  "Upcycling" : [
+    {
+      "name": "에코파티메아리",
+      "url": "https://smartstore.naver.com/ecopartymearry",
+      "logoRef": "업사이클링/에코파티메아리_로고",
+      "tags": ["업사이클링"],
+      "products": [
+        {
+          "storageRef": "업사이클링/에코파티메아리_카드케이스",
+          "productUrl": "https://seoulupstore.com/product/%EA%B8%B0%EB%B3%B8%EC%B9%B4%EB%93%9C%EC%BC%80%EC%9D%B4%EC%8A%A4/130/category/33/display/1/",
+          "name": "카드케이스",
+          "introduction": "소파 자투리 가죽으로 만든 실용적인 카드지갑"
+        },
+        {
+          "storageRef": "업사이클링/에코파티메아리_신문연필",
+          "productUrl": "https://seoulupstore.com/product/%EB%A9%94%EC%95%84%EB%A6%AC%EC%8B%A0%EB%AC%B8%EC%97%B0%ED%95%845%EC%9E%90%EB%A3%A8/133/category/45/display/1/",
+          "name": "신문연필",
+          "introduction": "나무 훼손은 이제 그만, 신문재생연필"
+        }
+      ]
+    },
+    {
+      "name": "누깍",
+      "url": "http://nukak.kr/index.html",
+      "logoRef": "업사이클링/누깍_로고",
+      "tags": ["업사이클링"],
+      "products": [
+        {
+          "storageRef": "업사이클링/누깍_CASA핸드폰케이스",
+          "productUrl": "http://nukak.kr/product/casa-%EA%B9%8C%EC%82%AC-iphone-11-%ED%95%B8%EB%93%9C%ED%8F%B0%EC%BC%80%EC%9D%B4%EC%8A%A4/8923/category/51/display/1/",
+          "name": "CASA핸드폰케이스",
+          "introduction": "광고현수막으로 만들어진 100% 방수 케이스"
+        },
+        {
+          "storageRef": "업사이클링/누깍_CHECK짐백",
+          "productUrl": "http://nukak.kr/product/check-%EC%B2%B4%ED%81%AC/9241/category/46/display/1/",
+          "name": "CHECK짐백",
+          "introduction": "광고현수막으로 만들어진 세상에 단 하나뿐인 짐백"
+        }
+      ]
+    },
+    {
+      "name": "메리우드",
+      "url": "http://merrywood.co.kr/",
+      "logoRef": "업사이클링/메리우드_로고",
+      "tags": ["업사이클링"],
+      "products": [
+        {
+          "storageRef": "업사이클링/메리우드_팔각트레이",
+          "productUrl": "http://merrywood.co.kr/product/%EB%A7%88%EC%9D%8C%EC%9D%84-%EC%83%88%EA%B8%B0%EB%8A%94-%ED%8C%94%EA%B0%81%ED%8A%B8%EB%A0%88%EC%9D%B4/35/category/55/display/2/",
+          "name": "팔각트레이",
+          "introduction": "마음을 새기는 폐가구 각인 트레이"
+        },
+        {
+          "storageRef": "업사이클링/메리우드_티코스터",
+          "productUrl": "http://merrywood.co.kr/product/%EC%9A%B0%EB%93%9C-%ED%8B%B0%EC%BD%94%EC%8A%A4%ED%84%B0/37/category/55/display/1/",
+          "name": "티코스터",
+          "introduction": "마음이 따뜻해지는 폐가구 티코스터"
+        }
+      ]
+    },
+    {
+      "name": "밀키프로젝트",
+      "url": "http://www.milkyproject.com/",
+      "logoRef": "업사이클링/밀키프로젝트_로고",
+      "tags": ["업사이클링"],
+      "products": [
+        {
+          "storageRef": "업사이클링/밀키프로젝트_밀키큐브KIT",
+          "productUrl": "https://seoulupstore.com/product/%EB%B0%80%ED%82%A4%ED%81%90%EB%B8%8C-diy-kit-%EB%B0%80%ED%82%A4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%B0%80%ED%82%A4%ED%81%90%EB%B8%8C-%EB%AF%B8%EB%8B%88%EC%86%8C%ED%92%88%EC%83%81%EC%9E%90-%ED%82%A4%ED%8A%B8/22/category/66/display/1/",
+          "name": "밀키큐브KIT",
+          "introduction": "내 손으로 만드는 미니소품상자"
+        },
+        {
+          "storageRef": "업사이클링/밀키프로젝트_밀키바통KIT",
+          "productUrl": "https://seoulupstore.com/product/%EB%B0%80%ED%82%A4%EB%B0%94%ED%86%B5-diy-kit-%EB%B0%80%ED%82%A4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%B0%80%ED%82%A4%EB%B0%94%ED%86%B5-%ED%8E%9C%EC%BC%80%EC%9D%B4%EC%8A%A4-%ED%82%A4%ED%8A%B8/33/category/66/display/1/",
+          "name": "밀키바통KIT",
+          "introduction": "내 손으로 만드는 필통"
+        }
+      ]
+    },
+    {
+      "name": "오운유",
+      "url": "https://ownu.co.kr/",
+      "logoRef": "업사이클링/오운유_로고",
+      "tags": ["업사이클링"],
+      "products": [
+        {
+          "storageRef": "업사이클링/오운유_테디베어",
+          "productUrl": "https://ownu.co.kr/product/upcycling-teddy-bearlarge/276/category/26/display/1/",
+          "name": "테디베어",
+          "introduction": "민준이가 자투리 원단으로 만든 곰인형"
+        },
+        {
+          "storageRef": "업사이클링/오운유_메쉬백",
+          "productUrl": "https://ownu.co.kr/product/dot-lizard-mesh-bag-l-ivory/262/category/26/display/1/",
+          "name": "메쉬백",
+          "introduction": "온유가 그린 도마뱀 그림으로 만든 가방"
+        }
+      ]
+    },
+    {
+      "name": "큐클리프",
+      "url": "https://www.cueclyp.com/",
+      "logoRef": "업사이클링/큐클리프_로고",
+      "tags": ["업사이클링"],
+      "products": [
+        {
+          "storageRef": "업사이클링/큐클리프_앞치마",
+          "productUrl": "https://www.cueclyp.com/product/C20CAPRE01BKF",
+          "name": "앞치마",
+          "introduction": "리사이클 리젠 원단으로 만든 워크 에이프런"
+        },
+        {
+          "storageRef": "업사이클링/큐클리프_마스크스트랩",
+          "productUrl": "https://www.cueclyp.com/product/C209STUP01PUF-1",
+          "name": "마스크스트랩",
+          "introduction": "바람 같은 착용감, 낙하산 마스크 스트랩"
+        }
+      ]
+    },
+    {
+      "name": "119레오",
+      "url": "http://www.119reo.com/",
+      "logoRef": "업사이클링/119레오_로고",
+      "tags": ["업사이클링"],
+      "products": [
+        {
+          "storageRef": "업사이클링/119레오_핸드폰스트랩",
+          "productUrl": "http://www.119reo.com/?idx=39",
+          "name": "핸드폰스트랩",
+          "introduction": "일상을 지키는 폐방화복 핸드폰 스트랩"
+        },
+        {
+          "storageRef": "업사이클링/119레오_캔버스백",
+          "productUrl": "http://www.119reo.com/?idx=3",
+          "name": "캔버스백",
+          "introduction": "일상을 지키는 폐방화복 캔버스백"
+        }
+      ]
+    },
+    {
+      "name": "얼킨",
+      "url": "https://ulkin.co.kr/",
+      "logoRef": "업사이클링/얼킨_로고",
+      "tags": ["업사이클링"],
+      "products": [
+        {
+          "storageRef": "업사이클링/얼킨_지갑",
+          "productUrl": "https://ulkin.co.kr/product/ulkin-upcycling-label_frame-half-wallet_hopper-59",
+          "name": "지갑",
+          "introduction": "미대생의 회화 습작이 하나뿐인 패션으로"
+        },
+        {
+          "storageRef": "업사이클링/얼킨_이어폰케이스",
+          "productUrl": "https://ulkin.co.kr/product/ulkin-upcycling-label_artwork-airpods-case-pro-30",
+          "name": "이어폰케이스",
+          "introduction": "미대생의 아트워크가 내 손 안에"
+        }
+      ]
+    },
+    {
+      "name": "컷더트래쉬",
+      "url": "http://cutthetrash.com/index.html",
+      "logoRef": "업사이클링/컷더트래쉬_로고",
+      "tags": ["업사이클링"],
+      "products": [
+        {
+          "storageRef": "업사이클링/컷더트래쉬_토트백",
+          "productUrl": "http://cutthetrash.com/product/detail.html?product_no=25&cate_no=26&display_group=1",
+          "name": "토트백",
+          "introduction": "폐그물을 재활용한 다용도 토트백"
+        },
+        {
+          "storageRef": "업사이클링/컷더트래쉬_백팩",
+          "productUrl": "http://cutthetrash.com/product/detail.html?product_no=16&cate_no=26&display_group=1",
+          "name": "백팩",
+          "introduction": "페트병을 재활용한 5 in 1 백팩"
+        }
+      ]
+    },
+    {
+      "name": "오버랩",
+      "url": "https://www.overlab.kr/index",
+      "logoRef": "업사이클링/오버랩_로고",
+      "tags": ["업사이클링"],
+      "products": [
+        {
+          "storageRef": "업사이클링/오버랩_캠핑의자",
+          "productUrl": "https://www.overlab.kr/shop/?idx=80",
+          "name": "캠핑의자",
+          "introduction": "텐트를 새활용해 만든 가성비 의자"
+        },
+        {
+          "storageRef": "업사이클링/오버랩_모자",
+          "productUrl": "https://www.overlab.kr/shop/?idx=81",
+          "name": "모자",
+          "introduction": "패러글라이더 모자 쓰고 뛰어보자 팔짝"
+        }
+      ]
+    }
+  ],
+  "EcoFriendly": [
+    {
+      "name": "톤28",
+      "url": "https://www.toun28.com/",
+      "logoRef": "친환경/톤28_로고",
+      "tags": ["친환경"],
+      "products": [
+        {
+          "storageRef": "친환경/톤28_비이온클렌징워터",
+          "productUrl": "https://www.toun28.com/product/detail/85/503",
+          "name": "비이온클렌징워터",
+          "introduction": "비이온계 세정 성분으로 자극은 최소화, 클렌징은 깨끗하게"
+        },
+        {
+          "storageRef": "친환경/톤28_대나무칫솔",
+          "productUrl": "https://www.toun28.com/product/detail/32/422",
+          "name": "대나무칫솔",
+          "introduction": "100% 생분해성, 환경을 생각한 대나무 칫솔"
+        }
+      ]
+    },
+    {
+      "name": "아렌시아",
+      "url": "https://www.arencia.com/ko/",
+      "logoRef": "친환경/아렌시아_로고",
+      "tags": ["친환경"],
+      "products": [
+        {
+          "storageRef": "친환경/아렌시아_프렌치에그",
+          "productUrl": "https://www.arencia.com/ko/product/detail/?id=1",
+          "name": "프렌치에그",
+          "introduction": "저온숙성 비건 천연 저자극 클렌저"
+        },
+        {
+          "storageRef": "친환경/아렌시아_에몰리앙바디밤",
+          "productUrl": "https://www.arencia.com/ko/product/detail/?id=11",
+          "name": "에몰리앙바디밤",
+          "introduction": "균형이 무너진 일상에 진정을 더하는 에몰리앙 바디밤"
+        }
+      ]
+    },
+    {
+      "name": "마이아일랜드",
+      "url": "https://m.myisland.co.kr/layout/basic/about.html",
+      "logoRef": "친환경/마이아일랜드_로고",
+      "tags": ["친환경"],
+      "products": [
+        {
+          "storageRef": "친환경/마이아일랜드_친환경야자잎모빌",
+          "productUrl": "https://m.myisland.co.kr/product/detail.html?product_no=40&cate_no=49&display_group=1",
+          "name": "친환경야자잎모빌",
+          "introduction": "땅에 떨어진 나뭇잎의 마지막 쓰임"
+        },
+        {
+          "storageRef": "친환경/마이아일랜드_천연수세미",
+          "productUrl": "https://m.myisland.co.kr/product/detail.html?product_no=27&cate_no=45&display_group=1",
+          "name": "천연수세미",
+          "introduction": "친환경 살림 실천 위한 가장 쉽고 간편한 아이템"
+        }
+      ]
+    },
+    {
+      "name": "모레상점",
+      "url": "https://www.morestore.co.kr/",
+      "logoRef": "친환경/모레상점_로고",
+      "tags": ["친환경"],
+      "products": [
+        {
+          "storageRef": "친환경/모레상점_리프레싱컨디셔너바",
+          "productUrl": "https://www.morestore.co.kr/product/detail.html?product_no=283&cate_no=1&display_group=26",
+          "name": "리프레싱컨디셔너바",
+          "introduction": "머리를 감는 동안 심어지는 나무 한 그루"
+        },
+        {
+          "storageRef": "친환경/모레상점_오가닉코튼타이다이티셔츠",
+          "productUrl": "https://www.morestore.co.kr/product/detail.html?product_no=363&cate_no=1&display_group=48#prdDetail",
+          "name": "오가닉코튼타이다이티셔츠",
+          "introduction": "코튼 소재에 친환경 잉크 타이다이 티셔츠"
+        }
+      ]
+    },
+    {
+      "name": "헬로네이처",
+      "url": "https://www.hellonature.co.kr/service-info/index.do",
+      "logoRef": "친환경/헬로네이처_로고",
+      "tags": ["친환경"],
+      "products": [
+        {
+          "storageRef": "친환경/헬로네이처_친환경지퍼백",
+          "productUrl": "https://www.hellonature.co.kr/fdp001.do?goTo=dpItemView&itemCd=103922",
+          "name": "친환경지퍼백",
+          "introduction": "사탕수수로 만든 친환경 지퍼백"
+        },
+        {
+          "storageRef": "친환경/헬로네이처_친환경당근",
+          "productUrl": "https://www.hellonature.co.kr/fdp001.do?goTo=dpItemView&itemCd=023467",
+          "name": "친환경당근",
+          "introduction": "친환경 당근으로 산지의 신선함까지"
+        }
+      ]
+    },
+    {
+      "name": "녹색장터",
+      "url": "https://www.greenproduct.co.kr/",
+      "logoRef": "친환경/녹색장터_로고",
+      "tags": ["친환경"],
+      "products": [
+        {
+          "storageRef": "친환경/녹색장터_향균마스크",
+          "productUrl": "https://www.greenproduct.co.kr/greenmro/product/getProductDetail.do?crefitem=556&bplrefitem=475467",
+          "name": "향균마스크",
+          "introduction": "녹색기술제품 확인받은 향균 카퍼라인 마스크"
+        },
+        {
+          "storageRef": "친환경/녹색장터_ABC분말소화기",
+          "productUrl": "https://www.greenproduct.co.kr/greenmro/product/getProductDetail.do?crefitem=171&bplrefitem=340367",
+          "name": "ABC분말소화기",
+          "introduction": "환경과 안전 모두 생각하는 자원재순환 소화기"
+        }
+      ]
+    },
+    {
+      "name": "자연상점",
+      "url": "http://onlyeco.co.kr/",
+      "logoRef": "친환경/자연상점_로고",
+      "tags": ["친환경"],
+      "products": [
+        {
+          "storageRef": "친환경/자연상점_커피제습제",
+          "productUrl": "http://onlyeco.co.kr/product/%EB%A6%AC%EB%89%B4%EC%96%B4%EC%8A%A4-%EC%BB%A4%ED%94%BC%EC%A0%9C%EC%8A%B5%EC%A0%9C/281/category/66/display/1/",
+          "name": "커피제습제",
+          "introduction": "커피 찌꺼기로 만든 환경 친화 제습제"
+        },
+        {
+          "storageRef": "친환경/자연상점_친환경주방선물세트",
+          "productUrl": "http://onlyeco.co.kr/product/%EA%B0%80%EC%B9%98-%EB%8B%B4%EC%9D%80-%EC%B9%9C%ED%99%98%EA%B2%BD-%EC%A3%BC%EB%B0%A9-%EC%84%A0%EB%AC%BC%EC%84%B8%ED%8A%B8/261/category/51/display/1/",
+          "name": "친환경주방선물세트",
+          "introduction": "우리 가족과 지구의 건강을 주방에 선물"
+        }
+      ]
+    },
+    {
+      "name": "더클레어",
+      "url": "http://theklair.co.kr/category/%EC%B9%9C%ED%99%98%EA%B2%BD%EC%87%BC%ED%95%91%EB%AA%B0/25/",
+      "logoRef": "친환경/더클레어_로고",
+      "tags": ["친환경"],
+      "products": [
+        {
+          "storageRef": "친환경/더클레어_클레어후레쉬",
+          "productUrl": "http://theklair.co.kr/product/detail.html?product_no=20&cate_no=25&display_group=1",
+          "name": "클레어후레쉬",
+          "introduction": "천연 편백나무 피톤치드로 만든 친환경 탈취제"
+        },
+        {
+          "storageRef": "친환경/더클레어_올인원크림바",
+          "productUrl": "http://www.theklair.co.kr/product/detail.html?product_no=130&cate_no=25&display_group=2",
+          "name": "올인원크림바",
+          "introduction": "천연유래성분 99% 함유 올인원 크림바"
+        }
+      ]
+    },
+    {
+      "name": "슈가버블",
+      "url": "http://sugarbubble.co.kr/",
+      "logoRef": "친환경/슈가버블_로고",
+      "tags": ["친환경"],
+      "products": [
+        {
+          "storageRef": "친환경/슈가버블_친환경주방세제",
+          "productUrl": "http://sugarbubble.co.kr/product/%EC%8A%88%EA%B0%80%EB%B2%84%EB%B8%94-%EC%B9%9C%ED%99%98%EA%B2%BD-1%EC%A2%85-%EC%A3%BC%EB%B0%A9%EC%84%B8%EC%A0%9C-%EC%BF%A8%EB%9D%BC%EC%9E%84-1l/625/category/76/display/1/",
+          "name": "친환경주방세제",
+          "introduction": "식물유래 계면활성제를 사용한 친환경 주방세제"
+        },
+        {
+          "storageRef": "친환경/슈가버블_그린플로라섬유유연제",
+          "productUrl": "http://sugarbubble.co.kr/product/%EA%B7%B8%EB%A6%B0%ED%94%8C%EB%A1%9C%EB%9D%BC-%EC%84%AC%EC%9C%A0%EC%9C%A0%EC%97%B0%EC%A0%9C-2l/76/category/70/display/1/",
+          "name": "그린플로라섬유유연제",
+          "introduction": "환경에도 사람에도 자극과 오염 부담 줄인 섬유유연제"
+        }
+      ]
+    },
+    {
+      "name": "굿백",
+      "url": "https://www.goodbag.kr/",
+      "logoRef": "친환경/굿백_로고",
+      "tags": ["친환경"],
+      "products": [
+        {
+          "storageRef": "친환경/굿백_생분해성포크",
+          "productUrl": "https://www.goodbag.kr/goods/goods_view.php?goodsNo=1000000095&mtn=1%5E%7C%5E%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%83%81%ED%92%88%5E%7C%5En",
+          "name": "생분해성포크",
+          "introduction": "옥수수전분으로 만든 친환경 일회용 포크"
+        },
+        {
+          "storageRef": "친환경/굿백_친환경비닐봉투",
+          "productUrl": "https://www.goodbag.kr/goods/goods_view.php?goodsNo=1000000014&mtn=1%5E%7C%5E%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%83%81%ED%92%88%5E%7C%5En",
+          "name": "친환경비닐봉투",
+          "introduction": "100% 자연분해 생분해성 비닐봉투"
+        }
+      ]
+    }
+  ],
+  "PlasticFree": [
+    {
+      "name": "아로마티카",
+      "url": "https://aromatica.co.kr/",
+      "logoRef": "플라스틱프리/아로마티카_로고",
+      "tags": ["플라스틱프리"],
+      "products": [
+        {
+          "storageRef": "플라스틱프리/아로마티카_티트리샴푸",
+          "productUrl": "https://aromatica.co.kr/product/detail.html?product_no=1689&cate_no=544&display_group=1",
+          "name": "티트리샴푸",
+          "introduction": "두피를 위한 성분부터 지구를 위한 용기까지"
+        },
+        {
+          "storageRef": "플라스틱프리/아로마티카_제로웨이스트실천세트",
+          "productUrl": "https://aromatica.co.kr/product/detail.html?product_no=1389&cate_no=544&display_group=1",
+          "name": "제로웨이스트실천세트",
+          "introduction": "지구를 위한 플라스틱 ZERO"
+        }
+      ]
+    },
+    {
+      "name": "내추럴팁스",
+      "url": "http://naturaltips.co.kr/",
+      "logoRef": "플라스틱프리/내추럴팁스_로고",
+      "tags": ["플라스틱프리"],
+      "products": [
+        {
+          "storageRef": "플라스틱프리/내추럴팁스_시어버터동백린스바",
+          "productUrl": "http://naturaltips.co.kr/product/detail.html?product_no=375&cate_no=143&display_group=1",
+          "name": "시어버터동백린스바",
+          "introduction": "지구의 미래를 생각하는 플라스틱프리 고체 린스"
+        },
+        {
+          "storageRef": "플라스틱프리/내추럴팁스_호호바약산성클렌징바",
+          "productUrl": "http://naturaltips.co.kr/product/detail.html?product_no=242&cate_no=143&display_group=1",
+          "name": "호호바약산성클렌징바",
+          "introduction": "플라스틱의 편리함 대신 자연이 주는 특별한 클렌징바"
+        }
+      ]
+    },
+    {
+      "name": "쎄비보타닉",
+      "url": "https://savvybotanic.com/",
+      "logoRef": "플라스틱프리/쎄비보타닉_로고",
+      "tags": ["플라스틱프리"],
+      "products": [
+        {
+          "storageRef": "플라스틱프리/쎄비보타닉_천연베르가못치약",
+          "productUrl": "https://savvybotanic.com/product/bergamot",
+          "name": "천연베르가못치약",
+          "introduction": "자연에서 찾은 천연 유래 구취 제거 치약"
+        },
+        {
+          "storageRef": "플라스틱프리/쎄비보타닉_천연진저민트치약",
+          "productUrl": "https://savvybotanic.com/product/gingermint",
+          "name": "천연진저민트치약",
+          "introduction": "치약 용기에서 식물 화분으로 재탄생"
+        }
+      ]
+    },
+    {
+      "name": "루나컵",
+      "url": "https://lunacup.co.kr/?gclid=Cj0KCQjwnJaKBhDgARIsAHmvz6ePVYssBSRFq9BJxeEeyJ9E7aemB-jugVzZrJ9t6471j39h12r9CfMaAlG6EALw_wcB",
+      "logoRef": "플라스틱프리/루나컵_로고",
+      "tags": ["플라스틱프리"],
+      "products": [
+        {
+          "storageRef": "플라스틱프리/루나컵_루나컵링",
+          "productUrl": "https://lunacup.co.kr/SHOP/?idx=117",
+          "name": "루나컵링",
+          "introduction": "모래로 만든 실리콘 월경컵은 다시 모래로"
+        },
+        {
+          "storageRef": "플라스틱프리/루나컵_고잉슬로우비누",
+          "productUrl": "https://lunacup.co.kr/GoingSlow/?idx=111",
+          "name": "고잉슬로우비누",
+          "introduction": "플라스틱 용기 없는 전성분 퇴비화 비누"
+        }
+      ]
+    },
+    {
+      "name": "더피커",
+      "url": "https://thepicker.net/",
+      "logoRef": "플라스틱프리/더피커_로고",
+      "tags": ["플라스틱프리"],
+      "products": [
+        {
+          "storageRef": "플라스틱프리/더피커_친환경커피연필",
+          "productUrl": "https://thepicker.net/ALL/?idx=272",
+          "name": "친환경커피연필",
+          "introduction": "나무 베지 않고, 플라스틱 섞지 않고 만든 커피연필"
+        },
+        {
+          "storageRef": "플라스틱프리/더피커_밀랍랩",
+          "productUrl": "https://thepicker.net/ALL/?idx=138",
+          "name": "밀랍랩",
+          "introduction": "자연에도 내 치아에도 건강한 천연 치실"
+        }
+      ]
+    },
+    {
+      "name": "덕분애",
+      "url": "https://www.thanksto.co.kr/main/index.php",
+      "logoRef": "플라스틱프리/덕분애_로고",
+      "tags": ["플라스틱프리"],
+      "products": [
+        {
+          "storageRef": "플라스틱프리/덕분애_스타터키트",
+          "productUrl": "https://www.thanksto.co.kr/goods/goods_view.php?goodsNo=1000000030",
+          "name": "스타터키트",
+          "introduction": "제로웨이스트 첫 시작 고민 해결"
+        },
+        {
+          "storageRef": "플라스틱프리/덕분애_밀랍랩",
+          "productUrl": "https://www.thanksto.co.kr/goods/goods_view.php?goodsNo=1000000029",
+          "name": "밀랍랩",
+          "introduction": "천연 밀랍으로 만든 플라스틱 일회용 랩 대체품"
+        }
+      ]
+    },
+    {
+      "name": "오랜",
+      "url": "https://smartstore.naver.com/orenlifestyle",
+      "logoRef": "플라스틱프리/오랜_로고",
+      "tags": ["플라스틱프리"],
+      "products": [
+        {
+          "storageRef": "플라스틱프리/오랜_비기너키트",
+          "productUrl": "https://smartstore.naver.com/orenlifestyle/products/5749660923",
+          "name": "비기너키트",
+          "introduction": "사람, 지구 모두 건강한 라이프스타일의 시작"
+        },
+        {
+          "storageRef": "플라스틱프리/오랜_리유즈백",
+          "productUrl": "https://smartstore.naver.com/orenlifestyle/products/4661607191",
+          "name": "리유즈백",
+          "introduction": "쓰레기 없는 재사용 광목 주머니"
+        }
+      ]
+    },
+    {
+      "name": "플라스틱제로",
+      "url": "https://smartstore.naver.com/plasticzero",
+      "logoRef": "플라스틱프리/플라스틱제로_로고",
+      "tags": ["플라스틱프리"],
+      "products": [
+        {
+          "storageRef": "플라스틱프리/플라스틱제로_소창화장솜",
+          "productUrl": "https://smartstore.naver.com/plasticzero/products/5184034909",
+          "name": "소창화장솜",
+          "introduction": "무형광, 무표백 실로 만든 재사용 화장솜"
+        },
+        {
+          "storageRef": "플라스틱프리/플라스틱제로_프로듀스백",
+          "productUrl": "https://smartstore.naver.com/plasticzero/products/4956341733",
+          "name": "프로듀스백",
+          "introduction": "비닐대신 면 장바구니 사용하여 친환경 장보기"
+        }
+      ]
+    },
+    {
+      "name": "더험블",
+      "url": "https://www.thehumble.co.kr/",
+      "logoRef": "플라스틱프리/더험블_로고",
+      "tags": ["플라스틱프리"],
+      "products": [
+        {
+          "storageRef": "플라스틱프리/더험블_내츄럴컬러면봉",
+          "productUrl": "https://www.thehumble.co.kr/product/swabs",
+          "name": "내츄럴컬러면봉",
+          "introduction": "100% 대나무와 천연 목화솜, 자연에서 얻은 천연 면봉"
+        },
+        {
+          "storageRef": "플라스틱프리/더험블_대나무빨대",
+          "productUrl": "https://www.thehumble.co.kr/product/straw",
+          "name": "대나무빨대",
+          "introduction": "인체와 자연환경에 무해한 대나무 빨대"
+        }
+      ]
+    },
+    {
+      "name": "아이엠그리너",
+      "url": "http://www.iamgreenmarket.com/",
+      "logoRef": "플라스틱프리/아이엠그리너_로고",
+      "tags": ["플라스틱프리"],
+      "products": [
+        {
+          "storageRef": "플라스틱프리/아이엠그리너_펄프용기",
+          "productUrl": "http://www.iamgreenmarket.com/product/detail.html?product_no=215&cate_no=50&display_group=1",
+          "name": "펄프용기",
+          "introduction": "수확 후 버려지는 밀짚의 재탄생"
+        },
+        {
+          "storageRef": "플라스틱프리/아이엠그리너_종이테이프",
+          "productUrl": "http://www.iamgreenmarket.com/product/detail.html?product_no=134&cate_no=48&display_group=1",
+          "name": "종이테이프",
+          "introduction": "크라프트 종이와 천연고무 접착제로 만든 테이프"
+        }
+      ]
+    }
+  ]
+}

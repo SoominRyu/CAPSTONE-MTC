@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutVeActivity">
+
+    <LinearLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/title_nacho"
+                android:scaleType="matrix" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btn_Back"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#00ff0000"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/btn_Profile"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#00ff0000" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/group_topview"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/title_bar"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/button_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Home"
+            android:textColor="@color/black"
+            android:background="#ffffff"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/buttom_cate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Category"
+            android:textColor="@color/black"
+            android:background="#ffffff"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button_prod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Product"
+            android:textColor="@color/black"
+            android:background="#ffffff"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button_stor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Store"
+            android:textColor="@color/black"
+            android:background="#ffffff"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="10dp"
+        android:background="#ffffff"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/ve_img"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/main_vegan"
+
+                tools:ignore="MissingConstraints" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:id="@+id/group_hash1"
+                app:layout_constraintTop_toBottomOf="@id/ve_img"
+                >
+                <Button
+                    android:id="@+id/hash1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/keyword_back2"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:text="#업사이클링"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/hash2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/keyword_back"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:text="#비건"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/hash3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/keyword_back2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:text="#공정무역"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:id="@+id/group_hash2"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/group_hash1"
+                >
+                <Button
+                    android:id="@+id/hash4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/keyword_back2"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:text="#기부 &amp; 후원 "
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/hash5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/keyword_back2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:text="#친환경"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/hash6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/keyword_back2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:text="#제로웨이스트"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_ab"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:text="About"
+                android:textColor="#000000"
+                android:textSize="9pt"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/group_hash2"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_ve"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="
+식품 트렌드를 넘어 라이프스타일 전반에 영향을 미치는 비건,\n
+우리가 실천할 수 있는 생활 속 작은 소비 습관입니다.\n
+ \n
+비건의 개념과 종류에 대해 함께 알아보면서\n
+여러분의 삶의 방식을 스스로 정해볼까요?\n
+"
+                android:textColor="#000000"
+                android:textSize="5pt"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text_ab"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/vegan1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/vegan1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text_ve"
+                tools:ignore="MissingConstraints"
+                />
+
+            <TextView
+                android:id="@+id/text_ve1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="
+Pollo Vegetarian\n
+소고기와 돼지고기를 먹지 않아요.\n
+닭고기 등 조류는 먹어요.\n
+\n
+Pesco Vegetarian\n
+육상동물을 먹지 않아요.\n
+물고기와 조개 등 수상생물은 먹어요.\n
+\n
+Ovo Vegetarian\n
+모든 동물과 유제품을 먹지 않아요. \n
+달걀은 먹어요.\n
+\n
+Lacto Vegetarian\n
+모든 동물과 달걀을 먹지 않아요. \n
+유제품은 먹어요.\n
+\n
+Vegan\n
+고기, 물고기, 달걀, 우유, 꿀 등\n
+일체의 동물성 식품을 먹지 않아요.\n
+채소와 과일 등의 식물은 먹어요.\n
+"
+                android:textColor="#000000"
+                android:textSize="5pt"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/vegan1"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/vegan2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/vegan2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text_ve1"
+                tools:ignore="MissingConstraints"
+                />
+
+            <TextView
+                android:id="@+id/text_ve2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="
+비건Vegan은,\n
+윤리적인 신념에 따라 육식을 하지 않는 것뿐만 아니라\n
+동물을 소재로 하는 것을 입지 않으며, \n
+동물을 이용한 실험연구를 통해 생산된 것을 소비하지 않는 등\n
+모든 형태의 동물성 제품을 사용하지 않는 생활습관을 말합니다.\n
+\n
+동물을 가치 있는 존재로 여기며, \n
+동물의 권리를 보호하고 존중하는 동물 복지 측면에서 형성된 \n
+윤리적인 삶의 방식입니다.\n
+\n
+비건\n
+관련 상품을 아래에서 만나보세요.\n
+"
+                android:textColor="#000000"
+                android:textSize="5pt"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/vegan2"
+                tools:ignore="MissingConstraints" />
+
+
+
+
+            <View
+                android:id="@+id/line1"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#D2D2D2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text_ve2"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_pr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:text="Product &amp; Store"
+                android:textColor="#000000"
+                android:textSize="9pt"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/line1"
+                tools:ignore="MissingConstraints" />
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:id="@+id/group_button"
+                app:layout_constraintTop_toBottomOf="@id/text_pr"
+                android:orientation="horizontal">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView_about_ve"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <Button
+                    android:id="@+id/button_pro"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_below="@id/recyclerView_about_ve"
+                    android:background="@drawable/keyword_back3"
+                    android:gravity="center"
+                    android:text="  비건 제품 더보기 > "
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/button_site"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/keyword_back3"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:text="  비건 사이트 더보기 >  "
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_below="@id/recyclerView_about_ve"
+                    android:layout_toRightOf="@id/button_pro"
+                    tools:ignore="MissingConstraints" />
+
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line2"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#D2D2D2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/group_button"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_co"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:text="Contents"
+                android:textColor="#000000"
+                android:textSize="9pt"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/line2"
+                tools:ignore="MissingConstraints" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="70dp"
+                android:id="@+id/group_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/text_co"
+                tools:ignore="MissingConstraints">
+
+                <Button
+                    android:id="@+id/content_ft"
+                    android:layout_width="140dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/main_fairtrade"
+                    android:layout_weight="1"
+                    />
+
+                <Button
+                    android:id="@+id/content_pf"
+                    android:layout_width="140dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/main_plasticfree"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "432957268391",
+    "firebase_url": "https://nacho-da37d-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "nacho-da37d",
+    "storage_bucket": "nacho-da37d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432957268391:android:2edca91bcc1779793d5682",
+        "android_client_info": {
+          "package_name": "com.example.nachos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432957268391-0bkbliqeon3fenc9af8plt5s6lna1tjb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nachos",
+            "certificate_hash": "ed05bf1160f336442f841554ad88f585238ffe1c"
+          }
+        },
+        {
+          "client_id": "432957268391-t4n53nc4ke238v7ii17rbtlq3u3u7d2r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nachos",
+            "certificate_hash": "16aba2d6fcfcd0b222693a3e525b7a4d19a670c5"
+          }
+        },
+        {
+          "client_id": "432957268391-nvt1lqns8ftposa13dfe2m7tvq4hpd6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOB1D8phzS9bIPhp7HPVbqWDMdcZYLpSU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432957268391-nvt1lqns8ftposa13dfe2m7tvq4hpd6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
